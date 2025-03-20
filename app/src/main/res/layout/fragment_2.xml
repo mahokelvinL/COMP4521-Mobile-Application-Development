@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvFragment2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Derivative\nConstant c -> 0\nLine x -> 1\nax -> a\nPower Rule x^n -> nx^(n-1)\nExponential e^x -> e^x\nln(x) -> 1/x\nlog(a,x) -> 1 / (x ln(a))\nSqrt(x) -> (1/2)x^)-1/2) by Power Rule\nsin(x) -> cos(x)\ncos(x) -> -sin(x)\ntan(x) -> sec^2(x)\ncsc(x) ->-cot(x)csc(x)\nsec(x) -> tan(x)sec(x)\ncot(x) -> -csc^2(x)\nProduct rule fg -> fg' + f'g\nQuotient rule f/g -> (f'g -\n  g'f)/(g^2)\nChain rule f(g(x)) ->\n  f'(g(x))g'(x)\n\nIntegration\nConstant a -> ax + C\nLine x -> x^(2)/2 + C\nPower Rule x^n -> x^(n+1)/\n  n+1 + C \nExponential e^x -> e^x + C\na^x -> a^(x)/ln(a) + C\n1/x -> ln|x| + C \ncos(x) -> sin(x) + C\nsin(x) -> -cos(x) + C\nsec^2(x) -> tan(x) + C"
+                android:textSize="34sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

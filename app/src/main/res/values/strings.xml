@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">testNaviForProject</string>
+    <string-array name="exerciseTopic">
+        <item>Derivative</item>
+        <item>Integration</item>
+    </string-array>
+    >
+</resources>
